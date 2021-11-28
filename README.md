@@ -9,7 +9,7 @@ If someone has a dual extruder model that has time to help work on a profile ple
 
 # Config Bundle Overview
 
-The config bundle is a work in progress **these are my settings and will likely require some adjustments as I spend more time printing.** I strongly encourage anyone to fork this and make adjustments to settings as they work with thier printer.
+The config bundle is a work in progress **these are my settings and will likely require some adjustments as I spend more time printing.** I strongly encourage anyone to fork this and make adjustments to settings as they work with thier printer. This fixes issues with the extruder and bed not heating up at the start of the print, and not turning off at the end of the print
 
 Printer Profile with proper sized build volume and extruder settings
 
@@ -20,7 +20,7 @@ Printer Profile with proper sized build volume and extruder settings
 1. PLA Profile
 2. PETG Profile
 
-For whatever reason this printer does not use traditional M codes for heating the nozzle. I went through their example prints and found what I believe to the the correct M codes. This should be included in the custom g-code in the config bundle but in the event it isn't here is a breakdown of the code.
+For whatever reason this printer does not use traditional M codes for heating the nozzle. I went through their example prints and found what I believe to the the correct M codes. This should be included in the custom g-code in the config bundle but in the event it isn't here is a breakdown of the code. 
 
 Check the media folder to find where in Prusa Slicer you can find it
 
